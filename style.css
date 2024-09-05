@@ -1,0 +1,39 @@
+#login{
+    display: block;
+    width: 250px;
+    height: 400px;
+    border-color: black;
+    border: 2px solid; 
+    padding: 20px;
+}
+.texto {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.caixa {
+    margin-bottom: 30px;
+}
+#titulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(19, 19, 107);
+}
+
+.input {
+    background-color: rgb(169, 167, 167);
+    width: 220px;
+    height: 20px;
+}
+
+#exibir {
+    margin-left: 120px;
+}
+
+#entrar {
+  width: 220px; 
+  height: 30px;
+  background-color: rgb(19, 19, 107); 
+  color: white;
+  margin-top: 30px;
+}
+input {
+    border-style: none;
+}
