@@ -7,19 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="login">
+    <div class="login">
         <header>
-            <h1 id="titulo">Login</h1>
+            <h1 class="titulo">Login</h1>
         </header>
         <div class="texto"><label for="usuario">Digite seu usuário</label></div>
         <div class="caixa"><input type="text" id="usuario" class="input"></div>
         <div class="texto"><label for="senha">Digite sua senha</label></div>
         <div class="caixa"><input type="password" id="senha" class="input"></div>
-       <div class="texto" id="exibir">
-         <input type="checkbox" name="exibir" id="exibirsenha"> 
+       <div class="texto" class="exibir">
+         <input type="checkbox" name="exibir" class="exibirsenha"> 
          <label for="exibirsenha">Exibir senha</label>
        </div>  
-        <div><input type="submit" value="Entrar" id="entrar"></div>
+        <div><input type="submit" value="Entrar" class="entrar"></div>
+        <div class="botaolabel"><label for="botao" class="labelbotao">Não possui uma conta?</label></div>
+        <div><input type="button" value="Criar Nova Conta" class="botao"></div>
     </div>
 </body>
 </html>
